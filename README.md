@@ -4,6 +4,22 @@
 
 Wercker step for mitsuse/bullet. Notify via Pushbullet.
 
+## Usage
+
+Add the step to the `after-steps` of `wercker.yml` as follows:
+
+```yaml
+after-steps:
+    - mitsuse/bullet-send:
+        title: "${WERCKER_GIT_REPOSITORY} - Build ${WERCKER_RESULT}."
+        path: "${WERCKER_BUILD_URL}"
+```
+
+The environment variable `BULLET_ACCESS_TOKEN` is required to call Pushbullet HTTP API.
+You can obtain the token from [the account page](https://www.pushbullet.com/account).
+
+If you want to send a file instead of the url, just set the file path to `path`.
+
 ## License
 
 The MIT License (MIT)
