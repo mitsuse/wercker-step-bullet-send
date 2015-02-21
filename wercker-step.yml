@@ -1,0 +1,16 @@
+name: bullet-send
+version: 0.0.1
+description: Notify via Pushbullet.
+keywords:
+    - pushbullet
+    - notification
+properties:
+    title:
+        type: string
+        required: false
+    message:
+        type: string
+        required: false
+    path:
+        type: string
+        required: false
