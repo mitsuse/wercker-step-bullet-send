@@ -2,7 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-MIT-yellowgreen.svg?style=flat-square)](LICENSE.txt)
 
-Wercker step for mitsuse/bullet. Notify via Pushbullet.
+[Wercker](https://app.wercker.com/) step for [mitsuse/bullet](https://github.com/mitsuse/bullet).
+Notify via Pushbullet.
 
 ## Usage
 
